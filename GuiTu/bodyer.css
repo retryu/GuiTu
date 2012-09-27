@@ -1,0 +1,30 @@
+/* CSS Document */
+.bodyer {width:980px; height:580px; overflow:hidden; margin:0px auto 15px; margin-top:90px;}
+.bodyer .left {width:315px; height:580px; float:left}
+.bodyer .left .top {width:315px; height:150px;}
+.bodyer .left .top  div {width:315px; height:36.5px;}
+.bodyer .left .top .list {line-height:35px; font-size:15px; color:gray}
+.bodyer .left .top  .search {
+								border-top:#5f9e20 1px solid; border-right:#5f9e20 1px solid; 
+								border-bottom:#5f9e20 1px solid; border-left:#5f9e20 1px solid;
+								width:80px; height:30px;
+								background:#6db227; color:#fff; font-weight:bold;
+								cursor:pointer; float:right; margin-right:1px; margin-top:5px;
+							}
+.bodyer .left .top .list select {
+									border-top:#b3b3b3 1px solid; border-left:#b3b3b3 1px solid; border-bottom:#ebebeb 1px solid; border-right:#ebebeb 1px solid; 
+									padding-top:5px;padding-right:0px; padding-bottom:5px;padding-left:185px; 
+									outline-width:0px; margin-top:4px; font-size:14px; color:gray
+								}
+.bodyer .left .bottom {width:313px; height:415px; border:1px solid #EBEBEB; margin-top:5px; float:right}
+.bodyer .left .bottom ul {width:100%; height:35px;}
+.bodyer .left .bottom .row-1 { background-color:#F4F4F4}
+.bodyer .left .bottom .row-2 { background-color:#E8E8E8}
+.bodyer .left .bottom .row-last li {float:right;}
+.bodyer .left .bottom .row-last li a {font-size:12px; line-height:30px; margin-right:7px}
+.bodyer .left .bottom ul li {float:left; text-align:center; line-height:30px; font-size:14px;}
+.bodyer .left .bottom ul .col-1 {width:35px; height:100%; border-right:1px solid #E4E4E4}
+.bodyer .left .bottom ul .col-2 {width:183px; height:100%; border-right:1px solid #E4E4E4}
+.bodyer .left .bottom ul .col-3 {width:85px; height:100%;}
+.bodyer .right {width:640px; height:570px; border:1px solid #000099; float:right}
+

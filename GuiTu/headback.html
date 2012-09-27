@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录后头部</title>
+<link href="init.css" type="text/css" media="all" rel="stylesheet"/>
+<link href="headback.css" type="text/css" media="all" rel="stylesheet"/>
+<script type="text/javascript"  src="js/head.js"></script>
+<script>
+alert('init');
+document.onLoad =function  init(){
+alert('onload');
+var drop_down_panl=document.getElementById("menu-dropdown-panel");
+alert(drop_down_panl);
+}
+
+</script>
+</head>
+<body>
+	<!--头部开始-->
+	<div class="bar" id="header">
+		<div class="container" id="header-container">
+			<div id="logo" class="logo">
+				<a href="###"><img alt="归途" src="images/logo.png"/></a>
+			</div>
+			<div class="menu">
+				<ul>
+					<li><a href="###">首页</a></li>
+					<li><a href="###">帮助中心</a></li>
+					<li><a href="###">关于我们</a></li>
+				</ul>
+			</div>
+			
+				<ul id="menu-sub">
+				<li id="menu-sub-me">
+				<a href="###"> 
+				<img src="http://tp1.sinaimg.cn/1820898120/50/0/1" class="avatar-small">
+				yhj
+				<b class="caret"></b></a>
+				<div id="menu-dropdown-panel"  class="clearfix">
+					<ul id="menu-dropdown"  >
+					<li style="height: 0;border-bottom: 1px solid #fff;border-top: 1px solid #ddd;margin: 0 8px 5px;"></li>
+					<li><a href="#">旅程</a></li>
+					<li><a href="#">回忆录</a></li>
+					<li><a href="#">足迹</a></li>
+					<li><a href="#">喜欢</a></li>
+					<li><a href="#">圈子</a></li>
+					<li><a href="#">私信</a></li>
+					<li><a href="#">设置</a></li>
+					<li style="height: 0;border-bottom: 1px solid #fff;border-top: 1px solid #ddd;margin: 0 8px 5px;"></li>
+					<li><a href="#">退出</a></li>
+					</ul>
+						
+					</div>
+				</li>
+			</ul>
+			<div id="nav-search" class="nav-search">
+				<form class="search" action="" method="get">
+					<div class="filed-search">
+						<input type="submit" class="icon-search" value="" />
+						<input class="text-search" id="search-1" name="search-1" type="text" placeholder="搜索你的归途" />
+					</div>
+				</form>
+			</div>
+		 
+			</div>
+			
+		</div>
+	</div>
+	<!--头部结束-->
+</body>
+</html>

@@ -1,0 +1,17 @@
+/* CSS Document */
+.bar  {top:0px; left:0px; right:0px; height:50px; position:fixed; background-color:#F0F0F0; border-bottom:1px solid #DDDDDD}
+.container {width:976px; height:50px; margin:0px auto 0px}
+.logo {width:150px; height:40px; margin-top:5px; float:left}
+.menu {width:250px; height:50px; float:left; margin-left:40px}
+.menu ul li {vertical-align: middle; float: left; position: relative; z-index: 101;}
+.menu ul li a {font-size: 16px; display: block; height: 50px; line-height: 50px; color: #666; padding: 0 15px;}
+.menu ul li:hover { background-color:#E6E6E6}
+.menu-sub {float:right;}
+.menu-sub li {float:left; font-size:13px; display: block; height: 50px; line-height: 50px; padding: 0 3px;}
+.menu-sub li a {color:#808080}
+.menu-sub li a:hover {color:#666}
+.nav-search {float:right; margin:11px 12px 0 0;}
+.search {float:left; display:inline}
+.filed-search {position:relative}
+.icon-search {background:url(images/icon-tiny-search-grey.png) no-repeat; right:2px; top:2px; position:absolute; border:0px; height:24px; overflow:hidden; width:24px; cursor:pointer;}
+.text-search {padding:4px 33px 4px 14px; height:20px; line-height:20px; background-color:#f3f3f3; color:#B2B2B2; border-radius:5px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px;}
