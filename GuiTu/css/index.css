@@ -1,0 +1,31 @@
+.table_place{
+width: 100%;
+height: 100%;
+border-right: 1px solid #E4E4E4;
+border-collapse:collapse;
+		}
+.table_place  thead{
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	}
+.table_place   th{
+	 border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #E4E4E4
+}
+	
+	
+.place_tr{
+	background-color: #E4E4E4;
+	line-height: 30px;
+		}
+.place_tr  td
+{
+	background-color: #F4F4F4;
+	border-left-width:5px;
+	text-align: center;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #E4E4E4
+}

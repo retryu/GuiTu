@@ -1,0 +1,13 @@
+.table_place{
+width: 100%;
+height: 100%;
+		}
+.table_place  thead{
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	}
+.placce_td
+{
+	text-align: center;
+}
