@@ -22,7 +22,15 @@ function  initMap() {
 function initPlaceList(point){
 	 var t=document.getElementById("placeTable");
 	 var  tr=t.getElementsByTagName("tr");
-	 for(var i=0;i<tr.length;i++){
+	 for(var i=1;i<tr.length;i++){
+		 
+		   
+		 if(i%2==0){
+		 tr[i].bgColor='F4F4F4';
+		 	}
+		 else{
+			 tr[i].style.backgroundColor="#E8E8E8";
+		 }
 		 tr[i].onclick=function(){
 			var  lat=this.getAttribute('lat');
 			var  lnt=this.getAttribute('lnt');
